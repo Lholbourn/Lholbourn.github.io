@@ -1,22 +1,29 @@
-.App {
-  text-align: center;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #4d3156,
+    #8d4e66,
+    #c1756d,
+    #e2a976
+  );
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skills__item {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: stretch;
+  margin-top: 40px;
 }
 
-.App-link {
-  color: #09d3ac;
+.projects__item {
+  display: flex;
+  align-items: stretch;
+  margin-top: 40px;
 }
