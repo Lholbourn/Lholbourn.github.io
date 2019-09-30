@@ -1,0 +1,39 @@
+.banner {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: white;
+}
+
+.banner__avatar_wrapper {
+  text-align: center;
+}
+
+.banner__avatar {
+  max-width: 75%;
+  border-radius: 50%;
+}
+
+.banner__title {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+.banner__subtitle {
+  font-weight: 200;
+  font-size: 25px;
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .banner__title {
+    text-align: left;
+  }
+  .banner__subtitle {
+    text-align: left;
+  }
+}
