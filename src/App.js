@@ -26,7 +26,7 @@ const projects = [
   {
     heading: "Limelite",
     description:
-      "My team for the final project and I made a practise project in 4 days. This website allows users to book tickets to unique movie screenings, or to create events themselves. It was designed to practise our skills and is based roughly on AirBnB.",
+      "My team and I at Le Wagon London, made a practise project in 4 days. This website allows users to book tickets to unique movie screenings, or to create events themselves. It was designed to practise our skills and is based roughly on AirBnB.",
     github: "https://github.com/Lholbourn/cinema",
     webpage: "https://cinema-airbnb-clone.herokuapp.com/",
     screenshot: "/limelite.jpg"
